@@ -38,13 +38,10 @@ function countingValleys(n, s) {
       }
     } else if (char === "D") {
       level--;
-      if (level == 0) {
-        count++;
-      }
     }
   }
 
-  return count - 1;
+  return count;
 }
 
 function main() {
